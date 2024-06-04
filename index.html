@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <!-- Envuelve todo el contenido de la página en un nuevo div con la clase page Recuerda agregar la etiqueta de cierre -->
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- Se supone que poner enlaces de navegación en una lista es la mejor práctica para escribir el código semántico, ya que permite a los lectores de pantalla hacer una pausa entre cada enlace en lugar de leer todos los enlaces como una oración. -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff"
+                >Los preferidos de nuestro staff</a
+              >
+            </li>
+            <li>
+              <a class="nav__link" href="#events">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#members-convertion"
+                >Conviértete en miembro</a
+              >
+            </li>
+            <li>
+              <a class="nav__link" href="#contacts">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div class="page">
+            <h1 class="header__title">
+              Bienvenidos a la biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
+              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
+              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+              estudiantes!
+            </p>
+          </div>
+          <!-- -------------------------------------------------------------------- -->
+          <!--       No descomentar hasta la sección 2.3 de la etapa 1 del brief         -->
+          <!-- -------------------------------------------------------------------- -->
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="staff" id="staff">
+          <!-- --------------------------------------------------------------- -->
+          <!--        No descomentar hasta la etapa final del proyecto.            -->
+          <!-- --------------------------------------------------------------- -->
+          <h2 class="staff__title">Los preferidos de nuestros lectores</h2>
+          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Crepúsculo (serie)</h3>
+                <p class="card__text">
+                  Crepúsculo (título original en inglés: Twilight) es una serie
+                  de cinco libros para adolescentes. Los libros, enmarcados
+                  dentro de la fantasía romántica, narran la historia de amor
+                  entre una chica mortal (Bella) y un vampiro (Edward)
+                </p>
+                <p class="card__footer">Stephenie Meyer</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Alicia en el país de las maravillas</h3>
+                <p class="card__text">
+                  Esta historia no solo nos maravilla con su imaginación
+                  desbordante, sino que alimenta nuestra capacidad de soñar. En
+                  el país de las maravillas, todo es posible y las reglas
+                  habituales se desvanecen, permitiéndonos explorar los límites
+                  de nuestra propia imaginación. Y está lleno de frases
+                  inolvidables.
+                </p>
+                <p class="card__footer">Lewis Carroll</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">La chica del tren</h3>
+                <p class="card__text">
+                  narra la historia de Rachel, una mujer que se obsesiona con
+                  una pareja que ve desde el tren. Rachel imagina una vida
+                  perfecta para ellos, pero un día presencia algo que despierta
+                  sus sospechas.
+                </p>
+                <p class="card__footer">Paula Hawkins</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Ana, la de las tejas verdes</h3>
+                <p class="card__text">
+                  La dulzura, imaginación y vitalidad de Ana, la protagonista,
+                  la convierten en un personaje inolvidable y en un símbolo de
+                  la magia y la alegría de la infancia. Ella es una joven
+                  huérfana que llega accidentalmente al hogar de los hermanos
+                  Matthew y Marilla Cuthbert. A pesar de no ser lo que
+                  esperaban, Ana cautiva rápidamente sus corazones con su
+                  espíritu soñador, dulzura y una imaginación desbordante. Su
+                  visión de la vida rebosa energía y emoción.
+                </p>
+                <p class="card__footer">Lucy Maud Montgomery</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
